@@ -1,0 +1,226 @@
+.parent{
+    display:grid;
+    grid-template-areas: "child1  child2  child3  child4"
+                        "child5  child6  child7  child8"
+                        "child9  child10 child11 child12" 
+                        "child13 child14 child15 child16" 
+                        "child17 child18 child19 child20" 
+                        "child21  child22 child23 child24"
+                        "child25 child26 child27 child28";
+    grid-gap:2vw;
+    text-align:center; 
+    font-size:11vw;
+    color:black;
+
+                     
+}
+body{
+    background-color:black;
+}
+h1{
+    color:black;
+    font-family:Raleway;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:white;
+    font-size:5vw;
+}
+.child{
+    background-color:lightpink;
+    height:10vw;
+    width:10vw;
+    border: 0.2vw white solid;
+    color:black;
+}
+a{
+    text-decoration:none;
+    /* color:black; */
+    color:lightpink;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:black;
+
+}
+.child:hover{
+    background-color:black;
+    height:10vw;
+    width:10vw;
+    border: 0.2vw white solid;
+    color:lightpink;
+}
+.child1{
+    grid-area:child1;
+    color:lightpink;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:black;
+    font-size:10.5vw;
+
+}
+
+
+
+.child1:hover{
+    color:black;
+    -webkit-text-stroke-color:lightpink;
+}
+.child2{
+    grid-area:child2;
+    
+}
+
+.child3{
+    grid-area:child3;
+    
+}
+
+.child4{
+    grid-area:child4;
+  
+}
+
+.child5{
+    grid-area:child5;
+   
+}
+
+.child6{
+    grid-area:child6;
+ 
+}
+
+.child7{
+    grid-area:child7;
+    color:lightpink;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:black;
+    font-size:10.5vw;
+  
+    
+}
+.child7:hover{
+    color:black;
+    -webkit-text-stroke-color:lightpink;
+}
+.child8{
+    grid-area:child8;
+ 
+}
+
+.child9{
+    grid-area:child9;
+   
+}
+
+.child10{
+    grid-area:child10;
+    color:lightpink;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:black;
+    font-size:10.5vw;
+ 
+}
+.child10:hover{
+    color:black;
+    -webkit-text-stroke-color:lightpink;
+}
+.child11{
+    grid-area:child11;
+  
+}
+.child12{
+    grid-area:child12;
+    
+}
+.child13{
+    grid-area:child13;
+   
+.child14{
+    grid-area:child14;
+ 
+}
+.child15{
+    grid-area:child15;
+    
+}
+.child16{
+    grid-area:child16;
+    
+}
+.child17{
+    grid-area:child17;
+ 
+}
+.child18{
+    grid-area:child18;
+    
+}
+.child19{
+    grid-area:child19;
+
+}
+.child20{
+    grid-area:child20;
+ 
+}
+.child21{
+    grid-area:child21;
+  
+}
+.child22{
+    grid-area:child22;
+   
+}
+.child23{
+    grid-area:child23;
+  
+}
+.child24{
+    grid-area:child24;
+    
+}
+.child25{
+    grid-area:child25;
+   
+}
+.child26{
+    grid-area:child26;
+    
+}
+.child27{
+    grid-area:child27;
+
+}
+.child28{
+    grid-area:child28;
+    
+}
+
+@media only screen and (max-width: 900px) {
+.parent{
+    display:grid;
+    grid-template-areas: "child1  child2"
+                         "child3  child4"
+                         "child5  child6"
+                         "child7  child8"
+                         "child9  child10"
+                         "child11 child12" 
+                        "child13 child14"
+                        "child15 child16" 
+                        "child17 child18"
+                        "child19 child20" 
+                        "child21  child22"
+                        "child23 child24"
+                        "child25 child26"
+                        "child27 child28";
+    grid-gap:2vw;
+    text-align:center; 
+    font-size:11vw;
+    color:black;  
+} 
+
+
+
+
+
+
+
+
+}
